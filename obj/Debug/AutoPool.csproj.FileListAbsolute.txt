@@ -1,0 +1,13 @@
+D:\AutoPool\AutoPool\bin\Debug\AutoPool.exe.config
+D:\AutoPool\AutoPool\bin\Debug\AutoPool.exe
+D:\AutoPool\AutoPool\bin\Debug\AutoPool.pdb
+D:\AutoPool\AutoPool\obj\Debug\AutoPool.csprojResolveAssemblyReference.cache
+D:\AutoPool\AutoPool\obj\Debug\AutoPool.Form1.resources
+D:\AutoPool\AutoPool\obj\Debug\AutoPool.Properties.Resources.resources
+D:\AutoPool\AutoPool\obj\Debug\AutoPool.csproj.GenerateResource.Cache
+D:\AutoPool\AutoPool\obj\Debug\AutoPool.exe
+D:\AutoPool\AutoPool\obj\Debug\AutoPool.pdb
+D:\AutoPool\AutoPool\bin\Debug\MySql.Data.dll
+D:\AutoPool\AutoPool\bin\Debug\MySql.Data.xml
+D:\AutoPool\AutoPool\obj\Debug\AutoPool.Form2.resources
+D:\AutoPool\AutoPool\obj\Debug\AutoPool.Form3.resources
