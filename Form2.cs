@@ -22,19 +22,12 @@ namespace AutoPool
             int week = Convert.ToInt32(textBox1.Text);
             int home = Convert.ToInt32(textBox2.Text);
             int away = Convert.ToInt32(textBox3.Text);
-            string rossis = "";
+           
             
 
-            if (radioButton1.Checked == true)
-            {
-                rossis = "Rossis1";
-            }
-            else if (radioButton2.Checked == true)
-            {
-                rossis = "Rossis2";
-            }
+           
 
-            string q = "UPDATE " + rossis + " SET Home_Score = '" + home + "', Away_Score = '" + away + "' WHERE Week = '" + week + "'";
+            string q = "UPDATE " + comboBox1.Text + " SET Home_Score = '" + home + "', Away_Score = '" + away + "' WHERE Week = '" + week + "'";
             sql s = new sql();
             s.Update(q);
             textBox1.Text = "";

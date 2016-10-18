@@ -102,29 +102,25 @@ namespace AutoPool
             }
         }
 
-        public string Select (string q)
+        public List <string> Select (string q)
         {
-            string player = "";
+            List<string> l = new List<string>();
 
-            if(this.OpenConnection() == true)
+            if (this.OpenConnection() == true)
             {
                 MySqlCommand cmd = new MySqlCommand(q, connection);
                 MySqlDataReader dataReader = cmd.ExecuteReader();
 
                 while (dataReader.Read())
                 {
-                    player = dataReader["Player"] + "";
+                    l.Add(dataReader["Player"] + "");
                 }
 
                 dataReader.Close();
-
                 this.CloseConnection();
-                return player;
+                return l;
             }
-            else
-            {
-                return player;
-            }
+            else return l;
             
         }
 
